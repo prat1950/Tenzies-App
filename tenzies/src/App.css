@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.bg-custom-darkblue {
+  background-color: #0B2434; /* Replace this color code with your desired dark blue color */
+}
+
+/* Center and lower the rows */
+@media (min-width: 768px) {
+  .row_centered_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem; /* Ensure equal height for both rows */
+  }
+  .col-centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .row_centered_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+     /* Ensure equal height for both rows */
+  }
+}
+
+/* For medium-sized screens and up */
+.container {
+  height: 100vh;
+}
+
+.col
+{
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 767px) {
+  .row_centered_1,
+  .row_centered_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0; /* Remove top margin */
+  }
+
+  .col-centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card {
+    padding: 0;
+  }
+
+  .row_centered_1 .col,
+  .row_centered_2 .col {
+    /* Adjust the width and height to control the size of the dice */
+    width: 8em;
+    height:3em;
+}
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height:4em;
+  margin-top: 1rem; /* Adjust the margin-top value as needed */
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  font-size: larger;
+  background-color: purple;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #593875; /* Change the color when hovering over the button */
+}
