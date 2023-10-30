@@ -17,7 +17,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top:4rem; /* Ensure equal height for both rows */
+    margin-top:2.5rem; /* Ensure equal height for both rows */
   }
   .col-centered {
     display: flex;
