@@ -8,7 +8,7 @@ export default function Die(props) {
     }
     return (
         <div>
-            <Card className="shadow-sm card">
+            <Card className="shadow-sm card" onClick={props.holdDice}>
                 <Card.Body className="text-center fw-bold" style={styles}>
                     <Card.Title >{props.value}</Card.Title>
                 </Card.Body>
