@@ -93,9 +93,9 @@ body {
   .row_centered_1 .col,
   .row_centered_2 .col {
     /* Adjust the width and height to control the size of the dice */
-    width: 5em;
-    height:2em;
-    margin-bottom: 1.2em;
+    width: 4.8em;
+    height: 1em;
+    margin-bottom: 1.8em;
 }
 .button
   {
